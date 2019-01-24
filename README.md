@@ -6,6 +6,14 @@ Demo project on how to run a Golang program on an embbeded hardware like Onion O
 
 Attach a LED to GPIO 11 on Omega 2 to see this project working.
 
+## Prerequisites
+
+Download this project into your go project folder.
+
+In the project folder download all dependancies using the following command
+
+`go get ./...`
+
 ## How to build for Omega 
 
 This command will generate a binary file compatible with Omega architecture.
